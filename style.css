@@ -353,22 +353,29 @@ footer {
 
 
 @media (max-width: 992px) {
-    text-align: center;
-}
+    body {
+        text-align: center;
+    }
 
-.hero-text h1 {
-    font-size: 3rem;
-}
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 
-.hero-text p {
-    margin: 0 auto 30px;
-}
+    .hero-text h1 {
+        font-size: 2.8rem;
+    }
 
-.cta-buttons {
-    justify-content: center;
-}
+    .hero-text p {
+        margin: 0 auto 30px;
+    }
 
-.footer-content {
-    grid-template-columns: 1fr;
-    text-align: center;
+    .cta-buttons {
+        justify-content: center;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 }
